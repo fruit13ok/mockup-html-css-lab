@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+    border-collapse:collapse;
+    border-spacing:0;
+    font-weight:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    color:inherit;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+/* body */
+body {
+    margin: 4em 3em;
+    padding: 4em;
+    border-left: 4px solid gray;
+}
+a:hover {
+    background-color: yellow;
+}
+/* header */
+header h1 {
+    color: orange;
+    font-size: 4em;
+}
+header h1 a{
+    text-decoration: none;
+}
+header h2 {
+    color: black;
+    font-size: 2em;
+}
+header nav {
+    color: grey;
+    padding-bottom: 50px;
+}
+/* article */
+article {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    /* clear: both;
+    overflow: auto; */
+}
+article p::first-letter {
+  /* color: #c69c6d;
+  float: left;
+  font-size: 5em;
+  margin: 0 .2em 0 0; */
+  initial-letter: 7;
+  /* -webkit-initial-letter: 7; */
+  color: gray;
+  float: left;  /* some how this float don't need clear */
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+article h3 {
+    color: grey;
+    font-size: 2em;
+}
+article h2 {
+    font-size: 2em;
+}
+article h2 a{
+    text-decoration: none;
+}
+article h4{
+    text-align: right;
+    color: orange;
+    padding: 20px 0;
+}
+article h4 a{
+    text-decoration: none;
+}
+/* footer */
+footer {
+    padding: 20px 0 0 0;
+}
+footer nav {
+    color: gray;
+    padding: 20px 0;
+}
+footer nav a {
+    color: orange;
+    text-decoration: none;
+    border-right: 1px solid gray;
+}
+footer nav a:last-child {
+    border: none;
+}
+footer p {
+    color: gray;
+}
