@@ -42,10 +42,13 @@ header nav {
 article {
     border-bottom: 1px solid gray;
     padding: 20px;
-    margin: 20px;
+    margin: auto;
     width: 80%;
     /* clear: both;
     overflow: auto; */
+}
+img {
+    width: 100%;
 }
 article p::first-letter {
   /* color: #c69c6d;
